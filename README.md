@@ -9,11 +9,13 @@
 
 * 기본 비밀번호는 system/oracle
 
-## scott 게정 활성화
-* https://hyunki99.tistory.com/52
-
 ## 참고 자료
 * https://king-ja.tistory.com/107
 * https://velog.io/@hoplin/Docker%EB%A1%9C-Oracle-DB%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
 * https://dbwriter.io/oracle-installation-with-docker/
 * https://hyunki99.tistory.com/52
+
+### scott 게정 활성화
+* https://hyunki99.tistory.com/52
+* https://jione-e.tistory.com/97
+https://eunbindev.tistory.com/45
