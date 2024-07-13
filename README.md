@@ -11,10 +11,10 @@
 4. docker exec -it {컨테이너 이름} sqlplus
     - 초기 아이디 / 비밀번호 : system / oracle
 
- ### scott 계정 사용하기
-ALTER USER scott ACCOUNT UNLOCK;
-ALTER USER scott IDENTIFIED BY tiger;
-docker exec -i {컨테이너명} sqlplus system/oracle < {scott.sql 경로}
+### scott 계정 사용하기
+ALTER USER scott ACCOUNT UNLOCK;  
+ALTER USER scott IDENTIFIED BY tiger;  
+docker exec -i {컨테이너명} sqlplus system/oracle < {scott.sql 경로}  
 docker exec -it {컨테이너 이름} sqlplus scott/tiger
 
  ## 오류 발생 및 해결
